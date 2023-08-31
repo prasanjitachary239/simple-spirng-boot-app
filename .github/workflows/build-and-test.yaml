@@ -32,7 +32,6 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          registry: ghcr.io
           tags: |
-            prasanjitachary239/simple-spring-boot-app:latest
-            prasanjitachary239/simple-spring-boot-app:1.0.0
+            ghcr.io/prasanjitachary239/simple-spring-boot-app:latest
+            ghcr.io/prasanjitachary239/simple-spring-boot-app:1.0.0
